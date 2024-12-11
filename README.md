@@ -1,1 +1,15 @@
-# cs28255
+java c
+CS 350—Database Management Systems
+Fall 2024
+Phase five: Creating SQL Views to Answer Business Questions
+In this phase you will create several views that may be of interest to LeAnne Vineyards. Views will be stored in the team   Oracle account.
+note regarding views·   a view can be based on a single table or multiple tables·   a view can be based on a table (or several) and a view·   a view can be based on another view or multiple viewsNomenclature:1.   v1Team#   refers to the first View, for example. The # is your team number.2.   “Appropriate column headings” means instead of using the actual field names, such first_name, last_name, concatenate the two fields to result in “Client Name” or change how the column title will be displayed to be more “attractive.”
+Before each View, add the following comments:/*Team number*//*View Record Count*//*Question that describes the View (copy from below)*/Required Views1.   Create a view named v1Team#   that lists the vineyards, the grape types, and the years in which the grapes where grown in their respective vineyards. Use appropriate column headings in the resulting view, meaning use concatenated display names, if necessary.2.   Create a view named v2Team#   that lists the employees and the vineyards they manage. List only those employees who are managing vineyards3.   Create a view named v3Team#   based on three tables with two conditions. You may add more data to the tables to produce enough records. This view must have at least four columns with appropriate headings.4.      Create a view named v4Team#   that demonstrates a full ou代 写CS 350—Database Management Systems Fall 2024
+代做程序编程语言ter join. You may add more records to the tables in order to reflect the nature of that join. This view must have at least four columns with appropriate headings5.   Create a view named v5Team#   that shows the total number of shipped customer orders Show two columns with appropriate headings.6.   Create a view named v6Team#   that lists the wine name, vintage year, and bottle color for the wine. Show two columns with appropriate headings.7.   Create a view named v7Team#   that lists the customer name, customer address, customer phone, and customer type. Show one column with an appropriate heading. Once this is done modify the view count the total number of customers.Deliverables:·   Please ensure that above views are available in your team’s account by due date. Also, answer Phase Five questions on Blackboard (below the Instructions there is a Submission which is a “test” and has the questions you need to answer) and submit the following document there.·   Copy your views, i.e. the CREATE VIEW statements, separated with the comments before each view (in order to see the results of the View, you will need to do a SELECT * from VIEWNAME):/* Question X *//* Number of Records produced: XX Records */
+into a Word document, and then take a screenshot of each question’s result and paste that under Question X heading in the word document as done for Assignments 4 and 5:
+Example:    Question 1 Output:
+   
+Title your submission SemesterProject5Views_groupX.docx in the appropriate question in the submission “test” where X   is your team number.   
+
+         
+加QQ：99515681  WX：codinghelp  Email: 99515681@qq.com
